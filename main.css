@@ -1,0 +1,279 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and font family */
+body {
+  background: url('Images/ecca.jpg') ;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style the header and navigation */
+header {
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 0 20px;
+}
+
+nav p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 50rem;
+}
+
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  cursor: pointer;
+  color:white;
+}
+nav ul li:hover {
+  color: violet;
+}
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #ba17e7;
+  color: violet;
+}
+
+/* Style the hero section */
+.hero {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero figure img {
+  max-width: 100%;
+  float: right;
+  margin-right: 20px;
+  margin-top: 5rem;
+}
+
+.hero h1 {
+  font-size: 75px;
+  font-weight: 700;
+  margin-top: 6rem;
+  color: violet;
+  font-family: "Nosifer";
+}
+
+.hero h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.hero a {
+  display: inline-block;
+  background-color: #808080;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 6rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.hero a:hover {
+  background-color: violet;
+}
+
+/* Style the stories section */
+.stories {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  color: #fff;
+  
+}
+
+.stories h1{
+  color:violet; 
+  font-size: 50px;
+  margin-top: 3rem;
+  padding-left: 3rem;
+  text-align: center;
+  font-family: "Nosifer";
+
+}
+
+.stories h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 2rem;
+}
+.stories h4 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 2rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+
+.stories p {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 5rem;
+  margin-right: 20rem;
+  text-align: justify;
+}
+.stories figure img{
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-top: 2rem;
+  border: 2px solid violet; /* Set the border style, width, and color */
+  border-radius: 5px; /* Optionally, add rounded corners */
+}
+
+.stories figure2 img{
+  width: 20%;
+  height: auto;
+  float: right;
+  margin-right: 20px;
+  margin-top: 3rem;
+  border: 2px solid violet; /* Set the border style, width, and color */
+  border-radius: 5px; /* Optionally, add rounded corners */
+
+}
+
+
+/* Style the authors section */
+.authors {
+  padding: 20px;
+  background-color: transparent;
+  text-align: center;
+  padding-top: 7rem;
+}
+
+.authors h1 {
+  color: violet;
+  font-size: 35px;
+  font-family: 'Nosifer';
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.authors #authors {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Center items vertically */
+}
+
+.authors figure {
+  margin: 20px;
+  text-align: center; /* Center the content horizontally */
+}
+
+.authors figure img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid violet;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.authors h3 {
+  color: violet;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.authors p {
+  font-size: 14px;
+  color: #fff;
+  text-align: justify;
+}
+
+
+
+
+/* Style the footer section */
+footer {
+  background-color: transparent;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  text-wrap: wrap;
+}
+
+footer h1 {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(214, 49, 214);
+  text-wrap: wrap;
+}
+
+footer input[type="text"] {
+  padding: 10px;
+  border: 3px solid violet;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+
+footer input[type="submit"] {
+  background-color: violet;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 2rem;
+}
+
+footer input[type="submit"]:hover {
+  background-color: white; /* Change the background color on hover */
+  color: black; /* Change the text color on hover */
+}
+
+
+/* Add some margin to the footer text */
+footer p {
+  margin-top: 20px;
+}
+
+/* Center the main content */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
